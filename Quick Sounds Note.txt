@@ -1,0 +1,2 @@
+Make sure you copy all the player sounds from 
+the 'sound/players/male' directory into the 'female' directory.

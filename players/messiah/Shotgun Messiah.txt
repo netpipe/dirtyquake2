@@ -1,0 +1,67 @@
+11/03/98
+
+================================================================
+
+Model Name              : Shotgun Messiah
+
+installation directory  : quake2/baseq2/players/messiah
+
+Authors                 : Slaine AND Mike "Happy Slappy" McMillen
+
+Skins by     		: Slaine
+
+Model and Animation by	: Mike "Happy Slappy" McMillen	
+
+Email Address           : (Slaine) 		melkior@webzone.net  
+			: (Happy Slappy) 	mike.mcmillen@sierra.com
+
+Website Address         : http://www.gibbed.com/messiahs/
+
+Model description       : This is a clan PMP for Quake2. He is the Trench coat sportn 
+			  Shotgun toten Messiah. The model was created specifically for Shotgun Messiah
+			  clan use and has distinctive skins for our use & recognition. (With the 
+			  exception of the Blade skin, this is for all to use.) We advise if other 
+			  clans wish to use the model they may wish to create their own skinsets.
+
+* Play Information *
+
+New Sounds              : NO
+
+CTF Skins               : YES
+
+VWEP Support            : No (We may add this later in the form of different looking Shotguns)
+
+
+* Construction *
+
+Poly Count              : 532 tris.md2 / 70 weapon.md2
+
+Vert Count              : 319 tris.md2 / 112 weapon.md2
+
+Skin Count              : 2 DM, 2 CTF
+
+
+
+Editor used             : 
+		Modeling - 3DS MAX 2.5	
+		Animation- Character Studio 2
+		Skining  - NST, Q2Modler 
+		Painting - Photoshop, PaintShop Pro, NST
+		Viewing  - NST, JawedMD2
+		
+Known Bugs              : Zero.
+
+
+//////////////////////////////  Comments  ///////////////////////////////////
+ The Coat WILL go out of the "Bounding box" for those of you who care to know. Are we going to
+ change it?  Nope. Sorry. We knew going into this that it was going to happen. It shouldnt really
+ effect gameplay as you wont be shooting for his coattail. Also the gun skin is bigger than
+ standard. Again. Slaine knew it when he did it but in the models current state without
+ vwep support the trade-off of a better looking weapon for not having
+ to have multiple viewed weapons (and texture overhead)seemed fair.
+
+
+* Copyright / Permissions *
+QUAKE(R) and QUAKE II(R) are registered trademarks of id Software, Inc.
+This model is not to be distributed as part of any
+commercial product.

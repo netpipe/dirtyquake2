@@ -1,0 +1,162 @@
+Title    : BRAZEN: ITMASTIO 2
+
+Filename : brzn1_00.zip
+Version  : 1.0
+Date     : January 31, 1999
+Author   : Mr_Grim
+Email    : Mr_Grim@planetquake.com.au
+
+Credits  : id Software for the ever changeable Quake2,
+
+           Hentai for VWep patch and models
+
+           Zoid for Threewave CTF.
+
+           The guys at the QDeveLs message board
+           (http://www.telefragged.com/fragstain/qdevels)
+
+           PlanetQuake for providing news, info on editing
+           and hosting the BraZen homepage.
+
+           Apologies to anyone else I didn't mention.
+
+* Special Thanks *
+           WyrdR for getting me started at programming
+           bug fixing, ideas, support, annoying me....
+
+           BracK for many many ideas and inspiration.
+
+	   Rifleman for testing and ideas (US Marshals!).
+
+           FuNBoY for testing and ideas, and being a bitch :P
+
+	   Rin N Tits for testing.
+
+           Draken for always finding (And exploiting) very unbalanced
+           weaponry and bugs.
+
+           Sir Bink for ideas, testing and putting up with my shit :)
+
+           Mum for not going off at me (much) for staying up till 4am
+
+	   And to everyone else who has suggested ideas, given support
+	   	or just said they love the game!
+
+		******THANKS!******
+
+================================================================
+
+Description : A non-restrictive modification for Quake2
+	
+	What to say...
+
+	Hmmm...
+
+	Stuff it, just play the damn thing!
+
+
+================================================================
+                        LIST OF FEATURES
+================================================================
+        For proper descriptions visit the web page
+        at "www.planetquake.com/brazen" or just read
+        the included manual (Manual.htm).
+
+        Main:
+        - Weight that reduces movement and carrying capacity.
+        - Wounds, including leg and head damage.
+        - Two weapon style.
+        (Like 'Guns Akimbo', but you can also use two different weapons)
+        - Advanced Hit location based damage, including Arms, legs, head etc.
+        - Actions including corpse searching, climbing and kicking.
+
+        Item and weapon related:
+        - Weapon damage based on range and weapon type.
+        - Ability to shoot through walls and people.
+        - Weapons that require reloading.
+        - Weapon accuracy affected by stance, movement and water.
+        - Water affects a weapons ability to fire and/or effectiveness.
+        - Realistic item manipulation (Option).
+
+        Icing on the already great cake:
+        - Map list.
+        - Multiple defineable teams.
+        - CTF Support (Up to FOUR teams).
+        - Smart Audio.
+        - Match Game support.
+
+
+        HEAPS OF OTHER THINGS!
+
+================================================================
+
+* Play Information *
+
+Single Player           : Yes
+Deathmatch (2-16+)      : Yes               
+	                  Desgined more for team games.
+CTF (2-16+)             : Yes (Up to 4 teams)  
+	                  Basically the same as Zoid's Threewave CTF (W/O Hook).
+New Sounds              : Yes, a few.
+				A couple are from The TronicSound-TC 
+				for Quake2 by Tronicmind. Others were 
+				created or modified from other sources.
+
+New Graphics            : Yes, lots (And I am not good at making models).
+New Music               : No.
+
+* Construction *
+
+Base                    : Quake2 DLL 3.20 Source
+Editor(s) used          : LCC, PSP, Edit, Sound Forge 3.0, ModLer v0.83(?)
+Known Bugs        	: Aside from some bugs I have not been able to reproduce (A Mick bug), 				there arn't really any I know about. Each time I edit something, I am 				bound to add a possible bug.
+
+			The base for this version has been tested thoroughly on a LAN and on 
+			the internet, and found to be very stable, over all.  There is always 
+			a chance I missed things though, usually something stupid.
+
+
+Build Time              : It Took Me Ages So...
+Source Included		: No.
+
+* Install Instructions and usage *
+
+Server:
+        UNZIP, SET UP CONFIGS,
+        RUN "quake2 +set game brazen +set dedicated 1 +set deathmatch 1"
+        For teams games add "+set teams <number of teams>"
+        For CTF games add "+set ctf 1"
+        For CTF games add "+set match 1"
+
+Client:
+        UNZIP IT.
+        RUN "quake2 +set game brazen"
+        Set up your keys MANUALLY! (PREFERABLY)
+        If you use the set up in Quake2 you are likely to stuff the config
+        up.  Remember, +attack2 = second attack button.
+
+================================================================
+
+* Legal Stuff *
+        You may distribute this Quake2 mod in any electronic format
+        as long as this description file remains intact and
+        unmodified and is retained along with all of the files in the
+        archive and no fees are charged.
+
+        QUAKE2 is a registered trademark of Id Software, Inc. QUAKE2, the
+        stylized reproduction of the QUAKE2 trademark, including, without
+        limitation, the Q in QUAKE2, and the images depicted in QUAKE2 are
+        the copyrighted property of Id Software, Inc.
+
+
+FINAL NOTES:
+	When I started, I had a plan...
+	Now that I am done with it, I am no where near the plan.
+	I failed to achieve many things I wanted, simply because 
+	they were not possible with Quake2 mods.
+	With other things, I went well beyond what I thought I would...
+
+        Please do not rip me off, blantantly or otherwise.
+        Not only would I be upset, but I'm sure, deep down, you would be too...
+
+        I can be so full of shit sometimes :)

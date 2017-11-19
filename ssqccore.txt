@@ -1,0 +1,9 @@
+general {
+"maxprogs" "64"
+"numentities" "1"
+}
+stacktrace {
+<NO STACK>
+}
+entity 0{
+}

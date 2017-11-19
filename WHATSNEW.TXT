@@ -1,0 +1,522 @@
+===============================
+BRAZEN WHATS NEW - v1.0 (31/01/99)
+===============================
+------------------------
+FIXES:
+------------------------
+- Grenade Traps
+	Definately do not crash servers anymore.
+	Has been tested quite a bit to ensure this :)
+
+- Unlimited clips
+	If you emptied a clip, then immediately drop a the selected clip,
+	you could go in to negative clips. Simple fix.
+
+- No chest damage shown
+	Instead of showing chest damage, it would show more head damage.
+
+- Weapon combos
+	All weapon combos now work fine.
+
+
+------------------------
+CHANGES:
+------------------------
+- Jacket armor gone
+	Replaced with Vest and Helmet. Slightly altered model 
+	(Sits on ground, includes helmet)
+
+- Other items
+	All of the weapons and some items no longer float.
+	They now sit on the ground like they should (altered models).
+
+
+------------------------
+ADDITIONS:
+------------------------
+- Single Player
+	And heaps of stuff that goes with it.
+	I fixed up lots of things to ensure that things run smoothly, most of the time.
+	There are probably going to be problems with bodies getting in the way of things,
+	but you can get around it. Besides, it adds something to the game, when it forces
+	you to jump over lava pits and such...
+	Explosive and HV ammo's should be in or near secret area through out the levels.
+
+
+
+
+===============================
+BRAZEN WHATS NEW - v0.99 (28/01/99)
+===============================
+Due to the huge amount of changes, I won't bother listing much.
+
+------------------------
+FIXES:
+------------------------
+- HEAPS!
+	Especially around the teams/match handling.
+
+
+------------------------
+CHANGES:
+------------------------
+- Quite a few.
+	Lots of stuff to help speed up the game.
+
+- HitLocation
+	Tweaked quite a lot.
+
+
+------------------------
+ADDITIONS:
+------------------------
+- New Weaopn Handling System
+	See manual.
+	
+
+
+
+===============================
+BRAZEN WHATS NEW - v0.95a (12/10/98)
+===============================
+------------------------
+FIXES:
+------------------------
+- Code base
+	Now using the 3.20 code.
+	This means that it should work better with the current version
+	of Quake2. However, some things are not on, or have been removed,
+	at least temporarily.
+
+- Match games with Teams
+	Actually work right now.
+
+- Chase cam
+	The default chase camhas been added.
+	Just like the normal 3.20 chase came.
+	When observing, hit fire to chase, jump to change person.
+
+- Health pics
+	The health items finally have individual icons
+
+	Other stuff, probably.
+
+------------------------
+CHANGES:
+------------------------
+- Old Maplist disabled.
+	Use the inbuilt Quake2 one.
+	See 3.20 readme for details...
+
+- Blood and Bullet Holes
+	Disabled.
+
+- Corpse Searching
+	Disabled.
+
+- Weapon damages and speed.
+	Partly adjusted on a whole.
+	Rocket Launcher speed decreased.
+	Actual rocket speed increased.
+	Simialar adjustments to grenades...
+
+
+	Other stuff, probably.
+
+
+
+
+===============================
+BRAZEN WHATS NEW - v0.95 (08/11/98)
+===============================
+------------------------
+FIXES:
+------------------------
+
+- Unlimited ammo bug
+
+- Weapon and ammo selection
+
+- Plenty of other things...
+
+- Door code
+	Doors that are set up to be opened manually are now handled
+	much better.
+
+
+------------------------
+CHANGES:
+------------------------
+- Clip handling
+	The way that you empty and fill clips was simplified.
+	Just put aways weapon(s) and hit enter on the clip to empty it.
+	To fill, use the ammo, then the clip. Simple.
+	(See manual for more details)
+
+- Two weapons
+	Various fixes...
+
+- Drop weapon stuff
+	Various fixes...
+
+- Hands command
+	Selects weapons better.
+
+- Blood and Bullet Holes
+	Currently disabled.
+	I want to find a less intensive way of handling them...
+
+- Other stuff
+	Fixed, tweaked etc...
+
+
+------------------------
+ADDITIONS:
+------------------------
+- Advanced Hit Location
+	Shoot people in individual limbs, in that back, head etc more accurately.
+	Yes, I do mean individual arms, legs etc.
+
+- Advanced Little Man
+	The little guy now reports damage to individual parts of the body.
+
+- Match Game support
+	Team, DM or CTF matches.
+	Play for a time limit.  If you die during this time, you're out until the round
+	is over (See manual for details).
+
+- Multiple Team support
+	Define the teams you want to play (Name, model and skin).
+	
+- Better Audio Code
+	Audio code was change so much, it might as well be new.
+	Send sound either globally, to all the team, or locally, just to
+	those team memebers in the immediate area.  You can also associate
+	a gesture with a locally sent sound.
+
+- Map List
+	Create an external map list file.
+
+- Better Blood
+	Blood now trails off someone who a bullet has gone through.
+	People now bleed better (Blood drops instead of rising)
+
+	
+- Other stuff.
+	Yeah, that stuff is always important.
+	You probably wouldn't even notice most of it.
+
+
+
+
+
+
+===============================
+BRAZEN WHATS NEW - v0.9kelvinthecat (02/09/98)
+===============================
+------------------------
+FIXES:
+------------------------
+- Clip system
+        Bigs bugs fixed.
+
+- Two weapons
+	Various fixes...
+
+- Drop weapon stuff
+	Various fixes...
+
+- Other stuff
+	Fixed, tweaked etc...
+
+------------------------
+CHANGES:
+------------------------
+- Clip system
+	Make New Clip - Hit DEL (invaltuse) on the ammo, then on the Clip to make a new one.
+	Empty Clip - Hit DEL on the Clip, then ENTER (invuse) to empty a clip.
+
+------------------------
+ADDITIONS:
+------------------------
+- Toggleable Doors
+	See level.txt.
+
+- Head kicking
+	Gib a body then have fun kicking around the head...Sick, but fun.
+
+- Combine System
+	Bind a key to "invaltuse".  This will allow you to combine two items together to make
+	a new one.  RIght now it only works with clips and ammo.
+
+- Blood Pools
+	Set "blood" to amount of blood pools you want spawned...
+
+
+
+
+
+===============================
+BRAZEN WHATS NEW - v0.9kelvin
+===============================
+------------------------
+CHANGES:
+------------------------
+
+- "use super shotgun"
+	Got sick of saying SUPER SHOTGUN so it is now an ASSAULT SHOTGUN.
+	(Already in the autoexec.cfg).
+
+- ARMOR
+	Handling tweaks.
+
+- Weight and movement
+        Major over haul to improve internet play (I hope) and stop server over flows.
+
+- Falling damage
+	More realistic
+
+- Sudden Death mode (bflags 64) REMOVED
+	Now called REAL MODE.
+
+- Spinning & Glowing weapons
+	Depending on mode, items will not spin and/or glow like they used to.
+	Also, grenades & rockets may be shot and exploded.  In REAL MODE everything
+	can be blown up (just about).
+
+------------------------
+ADDITIONS:
+------------------------
+- New Clip System
+	Weapons that needed reloading before now need prepared clips.
+	Clips on Maps
+		These are automatically set up on non-brazen specific maps using a really
+		weird piece of code.  It is only about 90% effective at setting them up 
+		correctly.  It does make mistakes.
+	Preparing clips
+		Clips may have there ammo changed, stripped or topped up.
+
+- Bullet Holes
+	Set "bhole" to amount of holes you want spawned.
+
+- drop_weapon 
+	Drop the currently held weapon and switch to pistol.
+	Also works when holding two weapons (drops off hand first).
+	Doesn't work quite properly yet as it is supposed to switch to
+	fists, but there are none (So it is pistol no matter what).
+
+------------------------
+FIXES:
+------------------------
+
+- Weight system
+        As described above.
+
+- Leg damage
+	Less extreme and/or less occurence.
+
+
+
+
+=======================
+WHATS NEW - v0.9
+=======================
+
+------------------------
+CHANGES:
+------------------------
+
+- 'use_second' command removed
+        To use two different weapons, you now select the first one, then
+        tap the action key twice.  It will then say "Use second weapon".  Then
+        you choose your second weapon.
+
+- HUD changes
+        Now says "Weight" above (you guessed it) your weight counter.
+        Also says "Frags" above your frags.  Moved the timer underneath the
+        frags instead of being over the top of the weight counter.
+
+- HitLocation simplified
+        Completely rewrote HitLocation code.  Seems better now.
+
+- MAX HEALTH
+	When you take a fair amount of damage, your maximum health will decrease.  The minimum
+	max health you can have is 50.  Max health is increased by getting adrenaline and
+	sometimes by other health giving items (Medi-kits, Super Health etc).
+
+- ARMOR
+        - Various armor bugs FIXED (Hopefully got them all)
+        - Wearing two layers of armor makes you slower.  Second layer
+        is treated as two times the weight of one!
+         (So where lighter armor on the  outside!)
+        New Body Armor
+                - New Model (Full Body!)
+                - Now protects Chest, Head and Legs
+        New Combat Armor
+                - Old Body Armor model now used for Combat Armor(It is still
+                yellow though).  Combat Armor protects Chest and Head.
+
+- Corpse Searching
+        Now brings up a menu of what the corpse has on it.
+
+- Weight and movement
+        Various tweaks.  Mainly to make it more effective.
+
+- Sound and weight
+        The lighter you are, the less sound you make.  Stay under 40 weight
+        to be pretty much silent (Unless you get shot, fall far or shoot).
+
+- No more half damage
+	This piece of code was removed:
+		'if (ent == attacker)
+			points = points * 0.5;'
+	It meant that if you were the one who fired the explosive thing, take
+	half damage from it.
+
+------------------------
+ADDITIONS:
+------------------------
+
+- Sudden Death mode (bflags 64)
+        Large non-bullet weapons are removed, as is armor etc.  Then
+        remaining weapons do more realistic/dangerous amounts of damage.
+
+- Base visual equipment added.
+        If you carry a Chaingun or Back Pack, it is visable to other players.
+
+- Coloured discs
+        There is a new option (bflags 32) to use coloured discs to denote
+        teams in CTF games. These discs are placed beneath each players feet.
+
+- New Map Flag
+        BraZen can support custom maps a little better now.  You can set a
+        "brazen" flag to the map (like "gravity") to state that it is
+        specifically designed for BraZen. Doing so will turn off multi-ammo
+        types. More to come.
+
+- Pistol and Shells
+	Using shells in the pistol will sometimes cause you damage (from the kick).
+
+------------------------
+FIXES:
+------------------------
+
+- Flags stuffing up FIXED
+        If you dropped a flag, then picked it up, it would respawn. FIXED
+
+- CTF_ForceJoin and Classes FIXED
+        With both on, would put you straight into match without letting you
+        choose your class.
+
+
+
+
+=======================
+WHATS NEW - v0.88
+=======================
+
+- Multiple Armor layers
+	Wearing two suits of armor now protects better against
+	damage.  Damage that goes through the first armor is
+	then faced by the second armor.
+
+- Laser fixed
+	Some levels contained lasers which were supposed to deactivate
+	once a monster was killed.  FIXED.
+
+- Weapon Fixes
+	- The Shotgun/Pistol combo now works.
+	- HitLocation was fixed.
+	- +attack2 doing funny things to DUAL weapons FIXED.
+	- Hitting "use_second" while using a weapon that didn't
+	support two weapons stopped you from changing weapons
+	until you hit "use_second" again. FIXED
+
+- Medi-kits
+	- could be used when dead. FIXED
+	- When dropped, picking them (at full health) did not 
+	add one to your inventory. FIXED
+
+
+=======================
+WHATS NEW - v0.87
+=======================
+
+- Multiple ammo
+        - Not reseting when dropping a weapon/dying - FIXED
+        - Now spawns at random deathmatch points instead of replacing
+          other types.
+
+- Weapon Changes
+        - The Laser was replaced with the Rifle.  Rifle has special sniper
+          mode and is more accurate with HV Bullets. CELLS replaced with
+          BULETS accordingly.
+        - BFG10K removed.
+        - Super Shotgun now fires underwater, but doesn't reload underwater.
+        - Spread changes.  Ducking, standing, moving now effects the spread
+          more.
+        - Bullet damage over distance changes. Bullet damage about
+          double at point blank range.  Weapon damages altered accordingly.
+        - Bullet penetration fixed up. Less random. Based more on weapon
+          power.
+        - Picking up a weapon no longer just strips the ammo from it.
+        - May no longer drop a weapon if it is your second weapon
+        - Auto-switch to available ammo changed. No longer chooses
+          any non-standard ammo types.
+
+- Various Class changes
+        - Slayer, Rifle Man and Sniper added. Desecrator removed.
+        - Changes to some weapon configs.
+
+- Hit location changes.
+        Mainly to do with armor effect on it.  Body Armor is the
+        only armor that protects the head. None protect the legs.
+
+- Armor changes.
+        Mainly fixes for being shot while wearing it.
+
+- Rebreather Fixed.
+        The ReBreather now works like it is supposed too.
+
+- Death Message changes
+        More added. Also, hit location and some weapon combos are
+        now described.
+
+- New Commands
+        Drop Armor short cut - drop_armor
+        Quick Ammo selection - invpreva, invnexta
+
+- "brazenflags" cvar changed to "bflags"
+
+- Lights Out mode added ("blags" + 4)
+        Play in near total darkness for extra fun.
+        No flashlight, or anything like that to help. 
+
+- Lots of small fixes I can't remember.
+
+- Replaceable CTF sounds
+	Go to the "sound\ctf" directory and replace them with
+	what ever you like. Currently, RED capture is the classic
+	MONKKEYYYYYYY!  Some of the others are changed too!
+	Will make it more configurable later...
+
+WHATS NEW - v0.77
+
+- Offhand grenade only for light weapons.  Select a machinegun and
+  then click MOUSE2 (+attack2) to throw a grenade.
+
+- Multiple ammo type selection no longer needed each time you have
+  to reload.  To switch between ammo type, simply select them in the
+  inventory and use them.
+
+- Auto-switch to available ammo when out of current type.
+        eg Bullets to HV's, Explosive Shells to normal Shells.
+
+- Various small fixes.
+
+- Other stuff.
+
+Hell I can't even remember!
+
+LOTS OK!
+

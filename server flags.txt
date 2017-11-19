@@ -1,0 +1,77 @@
+================
+SERVER FLAG LIST
+================
+
+// bflags
+BF_CHOOSE_STUFF         1       = choose equipment
+BF_JOHN_WOO             2       = everyone starts with 6 pistols
+BF_LIGHTS_OUT           4       = darkness
+
+BF_CTF_ANYTIME          128     = can capture even when flag isn't at base
+BF_CTF_TOUCH            256     = only need to touch the flag to capture it
+BF_FLAGS_STAY           512     = dropped flag can't be picked up by its team
+BF_FLAGS_MBCB           1024    = dropped flag must be carried back by its team
+BF_CTF_R_RESPAWN        2048    = respawn out of base
+
+// realflags
+RF_NO_EQUIPMENT         1       = no items spawn in the level
+RF_NO_GLOWING           2       = items do not glow
+RF_NO_DEATHMESSAGES     4       = only server will get Deathmessages
+BF_NO_BLEED_DEATH       8       = last person to shoot you gets points
+RF_USE_HANDS            16      = Must use hands to put on armor
+                                (Probably be expanded later)
+
+
+// sv_jumpgrav ###      = jump gravity (default 800)
+                        Acts exactly the same as sv_gravity, but only affects
+                        players and only when they jump. Has the side affect
+                        of lowering fall damage, even if a player falls off
+                        a building.
+
+// match 0/1            = turn rounds off/on
+
+// ctf 0/1              = turn Capture The Flag off/on
+
+// teams 0-8            = number of teams you want (max = 7 actually)
+
+// forcejoin 0/1        = auto-matically asign players to teams
+
+// goal_limit #         = team max score (rounds one, captures etc)
+
+// round_timelimit #    = min 3, no max. In minutes
+
+
+// sv_itemchoices - add the item's classname to ALLOW it
+        "none" = no items allowed
+        item_armor_jacket
+        item_laser_sight
+        item_slippers
+        item_silencer
+        item_bandolier
+        item_flash_light
+
+// sv_weaponchoices : add the weapons's classname to ALLOW it
+        "none" = fists only
+        weapon_mp5
+        weapon_shotgun
+        weapon_cannon
+        weapon_sniper
+        weapon_rifle
+        weapon_knife
+        weapon_pistol
+        ammo_grenades
+
+// max_junk ##          = max number of bullet holes, gibs, etc that can exist at the same time.
+                        Suggest setting this to 32 (or less) for net servers.
+                        This limits everything, even if they are set higher
+
+// max_gibs ##          = max number of gibs that can exist at one time.
+
+// max_debris ##        = max number of debris (glass etc) that can exist at one time.
+
+// max_bhole ##         = N/A
+
+// max_blood ##         = N/A
+
+// max_knives ##        = max number of knives that can exist at one time.
+                        Unlike other limits, this is not restricted by max_junk.
